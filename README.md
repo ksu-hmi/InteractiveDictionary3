@@ -30,7 +30,7 @@ dictionary_1.py
 
 dictionary_2.py
 
-> Check for non-existing words. This ensures that the word can be found in the dictionary.
+> Check for non-existing words. This ensures that the word can be found in the dictionary. Also, it make sure the word is an actual word.
 
 dictionary_3.py
 
