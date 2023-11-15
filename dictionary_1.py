@@ -3,7 +3,9 @@ import json
 
 #Loading the json data as python dictionary
 #Try typing "type(data)" in terminal after executing first two line of this snippet
-data = json.load(open("data.json"))
+
+fin = open("dictionary.json", "r")
+data = json.load(fin)
 
 #Function for retriving definition
 def retrive_definition(word):
