@@ -5,7 +5,9 @@ import difflib
 from difflib import SequenceMatcher
 
 #Let's load the same data again
-data = json.load(open("data.json"))
+
+fin = open("dictionary.json", "r")
+data = json.load(fin)
 
 #Run a Sequence Matcher
 #First parameter is 'Junk' which includes white spaces, blank lines and so onself.
