@@ -98,3 +98,5 @@ def find_medical_terms():
         for definition in definitions:
             if "medical" in definition.lower():
                 medical_terms.append(word)
+#Return statement will return the word back to the user
+    return medical_terms
