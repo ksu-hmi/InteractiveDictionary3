@@ -45,3 +45,6 @@ Show the title of your project.
 Show a tag line that introduces the main concept of what it does/will do.
 Show 1-2 screenshots or pictures demonstrating the idea or parts (optional) Each person must upload a PPT slide in D2L. Each team must ensure there is a copy in their 
 Github repository so that future coders can quickly grasp the idea.
+
+Added a function to pull words that have a prefix of "pre" by creating a list and checking each word in the dictionary with a for and if statement. I then called the fucntion and 
+used a print statement for results. 
