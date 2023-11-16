@@ -102,3 +102,5 @@ def find_medical_terms():
     return medical_terms
 #Calling the function
 medical_terms = find_medical_terms()
+#print statement provides the user's input word with the definition of the term
+print("Words with 'medical' in the definition:", medical_terms)   
