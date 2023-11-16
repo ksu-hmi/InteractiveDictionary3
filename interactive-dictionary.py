@@ -5,6 +5,7 @@ from difflib import get_close_matches
 #Loading the json data as python dictionary
 #Try typing "type(data)" in terminal after executing first two line of this snippet
 
+#defines a function that allows the user to open the dictionary.json file in read mode.
 fin = open("dictionary.json", "r")
 data = json.load(fin)
 
