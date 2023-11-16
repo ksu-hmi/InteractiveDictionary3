@@ -39,6 +39,10 @@ DONE-Added a function to pull words that have a prefix of "pre" by creating a li
 used a print statement for results. 
 DONE-Added a function to pull words that have are only 3 letters in length by creating a list and checking each word in the dictionary with a for and if len statement. I then called the fucntion and 
 used a print statement for results. 
+Angelica 
+-Defined the function to display medical words :def find_medical_terms(): This allows the user to look up medical terms in the dictionary. DONE
+- Created an if statement to find words with medical meaning in the dictionary. -DONE
+-Created a print function to print the user's input and the definition of the word from the dictionary.-DONE
 Sprint 3 Project Roadmap
 
 Continue coding and refining and testing in Sprint 3 as in Sprint 2. I will look for additional progress. If you had minor scope for your project and finish already, 
