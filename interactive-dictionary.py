@@ -50,3 +50,18 @@ if type(output) == list:
 #For words having single definition
 else:
     print("-",output)
+
+
+#A function used to help the user find words that are three letterslong
+def find_first_30_three_letter_words():
+#if statement checks the length of the word
+    three_letter_words = [word for word in data.keys() if len(word) == 3]
+#return is going to print the output of the 1-29 words that are 3 letters 
+#in length. The :is a slicer operation
+    return three_letter_words[:30]
+#calling the function
+first_30_three_letter_words = find_first_30_three_letter_words()
+#print gives us the ouput
+print("First 30 three-letter words:", first_30_three_letter_words)
+
+
