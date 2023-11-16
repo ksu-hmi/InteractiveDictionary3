@@ -48,3 +48,6 @@ Github repository so that future coders can quickly grasp the idea.
 
 Added a function to pull words that have a prefix of "pre" by creating a list and checking each word in the dictionary with a for and if statement. I then called the fucntion and 
 used a print statement for results. 
+
+Added a function to pull words that have are only 3 letters in length by creating a list and checking each word in the dictionary with a for and if len statement. I then called the fucntion and 
+used a print statement for results. 
