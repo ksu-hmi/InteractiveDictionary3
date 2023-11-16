@@ -100,3 +100,5 @@ def find_medical_terms():
                 medical_terms.append(word)
 #Return statement will return the word back to the user
     return medical_terms
+#Calling the function
+medical_terms = find_medical_terms()
