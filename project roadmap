@@ -1,35 +1,44 @@
 Sprint 1 Project Road Map
 
-Each person should have an approved project topic (Turn in Ex 6 and ensure you are listed completely in the Teams Projects Spreadsheet).
+DONE-Each person should have an approved project topic (Turn in Ex 6 and ensure you are listed completely in the Teams Projects Spreadsheet).
 
-Each person should have established a Github account and joined our class organization (KSU-HMI) in Github by accepting the invite email.
+DONE-Each person should have established a Github account and joined our class organization (KSU-HMI) in Github by accepting the invite email.
 
-Each person should also be associated with ownership of a code repository in our Github organization. If on a team, ensure each has Owner, Admin, or Maintainer Role.
+DONE-Each person should also be associated with ownership of a code repository in our Github organization. If on a team, ensure each has Owner, Admin, or Maintainer Role.
 
-Each person should have edited and committed changes in a readme.md file in their repository in our Github organization. The commits should show in Github.
+DONE-Each person should have edited and committed changes in a readme.md file in their repository in our Github organization. The commits should show in Github.
 
-Each person should have explored at least one existing Python code base related to their project to evaluate using it in their project and submitted updates to the 
+DONE-Each person should have explored at least one existing Python code base related to their project to evaluate using it in their project and submitted updates to the 
 
-projectroadmap.md file explaining their findings. In evaluating your codebase, you should have read the code and attempted to run it yourself.
+projectroadmap.md file explaining their findings. 
+
+DONE-In evaluating your codebase, you should have read the code and attempted to run it yourself.
 
 
 Sprint 2 Project Road Map
 
-Each person should making small updates and adding commit messages with them in your repository in our Github organization so that your work is visible. 
+DONE-Each person should making small updates and adding commit messages with them in your repository in our Github organization so that your work is visible. 
 Do this with Github desktop. Otherwise, it will appear you are not working, and you will fail to demonstrate your knowledge of the application development process, 
 which is one of our course goals. Thus, even if you claim to be working on your own machine but fail to post updates in Github in our shared organization where the 
-professor can see them, you will fail on this grading item. Each person should have committed at least 6 code changes of significant size (not just a spelling error 
-fix for example). Each commit should include a comment that explains what you did. The comment must be specific (ie. not just Updated README.md but rather explain what
+professor can see them, you will fail on this grading item. 
+
+DONE-Each person should have committed at least 6 code changes of significant size (not just a spelling error 
+fix for example). 
+DONE-Each commit should include a comment that explains what you did. The comment must be specific (ie. not just Updated README.md but rather explain what
 your update was and why you did it briefly).
 
-Also, you need to be tracking your progress on planned and emerging tasks in your projectroadmap.md document. I will look for changes in this document as signs of your 
+DONE-Also, you need to be tracking your progress on planned and emerging tasks in your projectroadmap.md document. I will look for changes in this document as signs of your 
 progress. Using checkboxes, adding new tasks as they emerge, or adding “DONE” or checks to mark done items all could count here.
 
 Natasha
   - Defined "fin" variable. This allows the user to open the dictionary.json file in read mode - DONE
   - Defined "data" variable. This allows the user to read the contents of the json file - DONE 
   - Defined function "find_words_with_synonyms". This allows the user to find up to two words in the dictionary that are close to the current word - DONE
-
+Shaniqua
+DONE-Added a function to pull words that have a prefix of "pre" by creating a list and checking each word in the dictionary with a for and if statement. I then called the fucntion and 
+used a print statement for results. 
+DONE-Added a function to pull words that have are only 3 letters in length by creating a list and checking each word in the dictionary with a for and if len statement. I then called the fucntion and 
+used a print statement for results. 
 Sprint 3 Project Roadmap
 
 Continue coding and refining and testing in Sprint 3 as in Sprint 2. I will look for additional progress. If you had minor scope for your project and finish already, 
@@ -46,8 +55,4 @@ Show a tag line that introduces the main concept of what it does/will do.
 Show 1-2 screenshots or pictures demonstrating the idea or parts (optional) Each person must upload a PPT slide in D2L. Each team must ensure there is a copy in their 
 Github repository so that future coders can quickly grasp the idea.
 
-Added a function to pull words that have a prefix of "pre" by creating a list and checking each word in the dictionary with a for and if statement. I then called the fucntion and 
-used a print statement for results. 
 
-Added a function to pull words that have are only 3 letters in length by creating a list and checking each word in the dictionary with a for and if len statement. I then called the fucntion and 
-used a print statement for results. 
