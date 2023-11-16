@@ -64,4 +64,16 @@ first_30_three_letter_words = find_first_30_three_letter_words()
 #print gives us the ouput
 print("First 30 three-letter words:", first_30_three_letter_words)
 
+#defines a function named find_words_with_prefix.
+def find_words_with_prefix():
+#for statement goes through each word in the data dictionary, if statement
+#Checks if the current word starts with the prefix "pre"
+    words_with_prefix = [word for word in data.keys() if word.startswith("pre")]
+#uses slicing operation to give the first 1-49 words that start with "pre"
+    return words_with_prefix[:50]
+#calls the function
+words_with_prefix = find_words_with_prefix()
+#prints the function
+print("Words with the prefix 'pre' (first 50):", words_with_prefix)
+
 
