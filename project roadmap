@@ -26,9 +26,9 @@ Also, you need to be tracking your progress on planned and emerging tasks in you
 progress. Using checkboxes, adding new tasks as they emerge, or adding “DONE” or checks to mark done items all could count here.
 
 Natasha
-  - Defined "fin" variable. This allows the user to open the dictionary.json file in read mode.
-  - Defined "data" variable. This allows the user to read the contents of the json file.
-  - Defined function "find_words_with_synonyms". This allows the user to find up to two words in the dictionary that are close to the current word. 
+  - Defined "fin" variable. This allows the user to open the dictionary.json file in read mode - DONE
+  - Defined "data" variable. This allows the user to read the contents of the json file - DONE 
+  - Defined function "find_words_with_synonyms". This allows the user to find up to two words in the dictionary that are close to the current word - DONE
 
 Sprint 3 Project Roadmap
 
