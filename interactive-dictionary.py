@@ -86,11 +86,10 @@ def find_words_with_synonyms():
         synonyms = get_close_matches(word, data.keys(), n=2, cutoff=0.8)
         if synonyms and word != synonyms[0]:
             words_with_synonyms.append(word)
-#Defining the function to display medical words
-def find_medical_terms():
-    medical_terms = []
     return words_with_synonyms
-
 words_with_synonyms = find_words_with_synonyms()
 print("Words with synonyms:", words_with_synonyms) 
 
+#Defining the function to display medical words
+def find_medical_terms():
+    medical_terms = []
