@@ -93,3 +93,8 @@ print("Words with synonyms:", words_with_synonyms)
 #Defining the function to display medical words
 def find_medical_terms():
     medical_terms = []
+#Creating an if statement to check if the word is a medical term
+    for word, definitions in data.items():
+        for definition in definitions:
+            if "medical" in definition.lower():
+                medical_terms.append(word)
