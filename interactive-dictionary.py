@@ -76,4 +76,18 @@ words_with_prefix = find_words_with_prefix()
 #prints the function
 print("Words with the prefix 'pre' (first 50):", words_with_prefix)
 
+#defines a function name find_words_with_synonyms():
+def find_words_with_synonyms():
+    words_with_synonyms = []
+
+#starts a loop that iterates over each word in the keys of the "data" dictionary
+    for word in data.keys():
+        synonyms = get_close_matches(word, data.keys(), n=2, cutoff=0.8)
+        if synonyms and word != synonyms[0]:
+            words_with_synonyms.append(word)
+
+    return words_with_synonyms
+
+words_with_synonyms = find_words_with_synonyms()
+print("Words with synonyms:", words_with_synonyms) 
 
